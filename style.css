@@ -1,0 +1,79 @@
+*{
+    color: rgb(243, 226, 203);
+}
+header {
+    background-color: black;
+    position:absolute;
+    margin-bottom: 0%;
+    top: 0%;
+    text-align: center;
+    width: 100%;
+    }
+body {
+    background-image:
+    url(theater-image-background.jpg);
+    margin-top: 5%;
+}
+p {
+    margin-top: 10%;
+    margin-bottom:15%;
+    text-align: center;
+    font-size:500%;
+
+}
+.body-container {    
+    background-color: beige;
+    display: grid;
+    text-align: center;
+}
+.body-container-item-2 {
+    font-display: black;
+    grid-auto-columns: minmax(100px, auto);
+    grid-auto-rows: minmax(100px, auto);
+ 
+}
+
+img{
+    width: 10%;
+    float: left;
+    margin-left: 15%;
+    
+}
+ul {
+    display: inline-block;
+}
+li {display: inline;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+.body-container{
+    display: grid;
+    grid-row: 1fr 2fr 2fr 2fr 2fr;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+ol f {
+    display: none;
+}
+footer {
+
+    background-color: black;
+    position:relative;
+    margin-top: 0%;
+    bottom: 0%;
+    text-align: center;
+    bottom: 0%;
+    max-width: fit-content;
+}
